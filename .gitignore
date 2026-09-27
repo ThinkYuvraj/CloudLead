@@ -1,0 +1,30 @@
+.env
+.env.*
+!.env.example
+!.env*.example
+node_modules/
+
+# Generated application output
+dist/
+build/
+coverage/
+*.log
+npm-debug.log*
+
+# Python local environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Terraform local state and credentials
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+
+# OS-generated files
+.DS_Store
+Thumbs.db
